@@ -96,7 +96,7 @@
  * Therefore you should not use these as a general replacement for TEST_CHECK.
  * Use it with some caution, especially if your test causes some other side
  * effects to the outside world (e.g. communicating with some server, inserting
- * into a database etc.).
+ * into a database etc...).
  */
 #define TEST_ASSERT_(cond,...)                                                 \
     do {                                                                       \
